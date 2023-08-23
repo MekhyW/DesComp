@@ -1,12 +1,12 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/light.vhd
-source_file = 1, C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/DE0_CV_golden_top.v
-source_file = 1, C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/Waveform.vwf
+source_file = 1, C:/Descomp/quartus_introtutorial/light.vhd
+source_file = 1, C:/Descomp/quartus_introtutorial/DE0_CV_golden_top.v
+source_file = 1, C:/Descomp/quartus_introtutorial/Waveform.vwf
 source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
 source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
-source_file = 1, C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/db/light.cbx.xml
+source_file = 1, C:/Descomp/quartus_introtutorial/db/light.cbx.xml
 design_name = light
 instance = comp, \f~output , f~output, light, 1
 instance = comp, \x1~input , x1~input, light, 1

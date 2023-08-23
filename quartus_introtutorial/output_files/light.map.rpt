@@ -1,5 +1,5 @@
 Analysis & Synthesis report for light
-Tue Aug 15 22:54:21 2023
+Tue Aug 22 21:08:28 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Aug 15 22:54:21 2023       ;
+; Analysis & Synthesis Status     ; Successful - Tue Aug 22 21:08:28 2023       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; light                                       ;
 ; Top-level Entity Name           ; light                                       ;
@@ -166,13 +166,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                            ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                     ; Library ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+---------+
-; light.vhd                        ; yes             ; User VHDL File  ; C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/light.vhd ;         ;
-+----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                      ;
++----------------------------------+-----------------+-----------------+--------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path               ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------+---------+
+; light.vhd                        ; yes             ; User VHDL File  ; C:/Descomp/quartus_introtutorial/light.vhd ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -257,15 +257,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Aug 15 22:54:14 2023
+    Info: Processing started: Tue Aug 22 21:08:21 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off light -c light
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file light.vhd
-    Info (12022): Found design unit 1: light-LogicFunction File: C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/light.vhd Line: 7
-    Info (12023): Found entity 1: light File: C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/light.vhd Line: 3
+    Info (12022): Found design unit 1: light-LogicFunction File: C:/Descomp/quartus_introtutorial/light.vhd Line: 7
+    Info (12023): Found entity 1: light File: C:/Descomp/quartus_introtutorial/light.vhd Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file de0_cv_golden_top.v
-    Info (12023): Found entity 1: DE0_CV_golden_top File: C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/DE0_CV_golden_top.v Line: 54
+    Info (12023): Found entity 1: DE0_CV_golden_top File: C:/Descomp/quartus_introtutorial/DE0_CV_golden_top.v Line: 54
 Info (12127): Elaborating entity "light" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -275,9 +275,9 @@ Info (21057): Implemented 4 device resources after synthesis - the final resourc
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 1 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4850 megabytes
-    Info: Processing ended: Tue Aug 15 22:54:21 2023
+    Info: Peak virtual memory: 4854 megabytes
+    Info: Processing ended: Tue Aug 22 21:08:28 2023
     Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:07
+    Info: Total CPU time (on all processors): 00:00:06
 
 

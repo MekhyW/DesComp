@@ -1,5 +1,5 @@
 EDA Netlist Writer report for light
-Wed Aug 16 09:43:24 2023
+Tue Aug 22 21:15:17 2023
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Aug 16 09:43:24 2023 ;
+; EDA Netlist Writer Status ; Successful - Tue Aug 22 21:15:17 2023 ;
 ; Revision Name             ; light                                 ;
 ; Top-level Entity Name     ; light                                 ;
 ; Family                    ; Cyclone V                             ;
@@ -66,13 +66,13 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                       ;
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                                  ;
-+----------------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/felip/OneDrive/Área de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/simulation/qsim//light.vo ;
-+----------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------+
+; Simulation Generated Files                                 ;
++------------------------------------------------------------+
+; Generated Files                                            ;
++------------------------------------------------------------+
+; C:/Descomp/quartus_introtutorial/simulation/qsim//light.vo ;
++------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -95,14 +95,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Wed Aug 16 09:43:23 2023
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/felip/OneDrive/Área de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/simulation/qsim/" light -c light
+    Info: Processing started: Tue Aug 22 21:15:17 2023
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Descomp/quartus_introtutorial/simulation/qsim/ light -c light
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file light.vo in folder "C:/Users/felip/OneDrive/Área de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file light.vo in folder "C:/Descomp/quartus_introtutorial/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4719 megabytes
-    Info: Processing ended: Wed Aug 16 09:43:24 2023
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 4720 megabytes
+    Info: Processing ended: Tue Aug 22 21:15:17 2023
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
 
 

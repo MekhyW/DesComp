@@ -1,13 +1,13 @@
 /*<simulation_settings>
-<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off light -c light --vector_source="C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/Waveform.vwf" --testbench_file="C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/simulation/qsim/Waveform.vwf.vt"</ftestbench_cmd>
+<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off light -c light --vector_source="C:/Descomp/quartus_introtutorial/Waveform.vwf" --testbench_file="C:/Descomp/quartus_introtutorial/simulation/qsim/Waveform.vwf.vt"</ftestbench_cmd>
 <ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off light -c light --vector_source="C:/Users/felip/OneDrive/햞ea de Trabalho/quartus_introtutorial/Waveform.vwf" --testbench_file="C:/Users/felip/OneDrive/햞ea de Trabalho/quartus_introtutorial/simulation/qsim/Waveform.vwf.vt"</ttestbench_cmd>
-<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/felip/OneDrive/햞ea de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/simulation/qsim/" light -c light</fnetlist_cmd>
+<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Descomp/quartus_introtutorial/simulation/qsim/" light -c light</fnetlist_cmd>
 <tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory="C:/Users/felip/OneDrive/햞ea de Trabalho/quartus_introtutorial/simulation/qsim/" light -c light</tnetlist_cmd>
 <modelsim_script>onerror {exit -code 1}
 vlib work
 vlog -work work light.vo
 vlog -work work Waveform.vwf.vt
-vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.light_vlg_vec_tst
+vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.light_vlg_vec_tst
 vcd file -direction light.msim.vcd
 vcd add -internal light_vlg_vec_tst/*
 vcd add -internal light_vlg_vec_tst/i1/*
@@ -20,6 +20,7 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
+
 
 </modelsim_script>
 <modelsim_script_timing>onerror {exit -code 1}
@@ -39,6 +40,7 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
+
 
 </modelsim_script_timing>
 <hdl_lang>verilog</hdl_lang>

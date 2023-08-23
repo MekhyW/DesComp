@@ -1,13 +1,32 @@
 # do light.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 09:43:24 on Aug 16,2023
+# Start time: 21:15:18 on Aug 22,2023
 # vlog -work work light.vo 
-# init_dbinfo() DATABASE ERROR: (sqlite3_open C:/Users/felip/OneDrive/Área de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/simulation/qsim/work/_lib.qdb): unable to open database file
-# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
-# ** Fatal: (vlog-9) Problem while writing internal20180930A file "C:/Users/felip/OneDrive/Área de Trabalho/Trabalhos/Insper/Design de Computadores/quartus_introtutorial/simulation/qsim/work/_temp/vlogq55k1x".
-# light.vo(32): Verilog Compiler exiting
-# End time: 09:43:24 on Aug 16,2023, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: c:/intelfpga_lite/20.1/modelsim_ase/win32aloem/vlog failed.
-# Executing ONERROR command at macro ./light.do line 3
+# -- Compiling module light
+# 
+# Top level modules:
+# 	light
+# End time: 21:15:18 on Aug 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:15:18 on Aug 22,2023
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module light_vlg_vec_tst
+# 
+# Top level modules:
+# 	light_vlg_vec_tst
+# End time: 21:15:18 on Aug 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.light_vlg_vec_tst 
+# Start time: 21:15:18 on Aug 22,2023
+# Loading work.light_vlg_vec_tst
+# Loading work.light
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# after#25
+# ** Note: $finish    : Waveform.vwf.vt(47)
+#    Time: 200 ns  Iteration: 0  Instance: /light_vlg_vec_tst
+# End time: 21:15:18 on Aug 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

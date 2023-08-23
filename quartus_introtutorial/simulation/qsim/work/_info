@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,49 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/felip/OneDrive/Área de Trabalho/quartus_introtutorial/simulation/qsim
+vlight
+Z0 !s110 1692749718
+!i10b 1
+!s100 N8m43cKSf0ZPTFHV1X3[73
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhDob[4h2k2^UW7[0D^Gla3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Descomp/quartus_introtutorial/simulation/qsim
+Z4 w1692749717
+8light.vo
+Flight.vo
+!i122 6
+L0 32 117
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1692749718.000000
+!s107 light.vo|
+!s90 -work|work|light.vo|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vlight_vlg_vec_tst
+R0
+!i10b 1
+!s100 QCASDMKkKPO:18dgYhPRQ2
+R1
+ITU0I><j;fSPEI`T6KRJef3
+R2
+R3
+R4
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 7
+L0 30 36
+R5
+r1
+!s85 0
+31
+R6
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R7
+R8
