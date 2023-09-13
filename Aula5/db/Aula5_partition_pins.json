@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "PC_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PC_OUT[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Palavra_Controle[11]",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
