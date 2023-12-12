@@ -1,0 +1,41 @@
+-- Copyright (C) 2017  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions
+-- and other software and tools, and its AMPP partner logic
+-- functions, and any output files from any of the foregoing
+-- (including device programming or simulation files), and any
+-- associated documentation or information are expressly subject
+-- to the terms and conditions of the Intel Program License
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
+
+WIDTH=32;
+DEPTH=64;
+ADDRESS_RADIX=DEC;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+      -- Valores iniciais no banco de registradores:
+      -- $t0   (#8) := 0x00
+      -- $t1   (#9) := 0x0A
+      -- $t2  (#10) := 0x0B
+      -- $t3  (#11) := 0x0C
+      -- $t4  (#12) := 0x0D
+      -- $t5  (#13) := 0x16
+      -- $t6  (#14) := 0xAAAAAAAA
+      -- $t7  (#15) := 0x55555555
+
+    0    :   01CF4027; --nor $t0 $t6 $t7     ($t0  := 0x00000000)
+    1    :   A10E0000; --sb t6 0x0 t0        (M[0] := 0xAA na primeira execucao ou M[0] := 0x555555AA nas restantes)
+    2    :   8D090000; --lw t1 0x0 t0        ($t1 := 0xAA ou 0x555555AA)
+    3    :   01094820; --add t1 t0 t1        ($t1 := 0xAA ou 0x555555AA, t1 = 0 + t1, so para exibir no ula_out)
+    4    :   AD0F0004; --sw t7 0x4 t0        (M[4] := 0x55555555)
+    5    :   AD0F0000; --sw t7 0x0 t0        (M[0] := 0x55555555)
+    6    :   91090004; --lbu t1 0x4 t0       ($t1 := 0x55)
+    7    :   01094020; --add t0 t0 t1        ($t0 := 0x55, t0 = 0 + t1, so para exibir no ula_out)
+    8    :   08000000; --j 0x000000          (pc := #0)
+   [9..63]  : 00000000;
+END;

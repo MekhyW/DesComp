@@ -1,0 +1,40 @@
+Quartus Prime Archive log --	C:/Descomp/Hardware/MIPS_DLX.qarlog
+
+Archive:	C:/Descomp/Hardware/MIPS_DLX.qar
+Date:		Tue Dec 12 10:52:40 2023
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Descomp/Hardware/Atividade.vhd
+C:/Descomp/Hardware/MIPS_DLX.qpf
+C:/Descomp/Hardware/MIPS_DLX.qsf
+C:/Descomp/Hardware/RAMMIPS.vhd
+C:/Descomp/Hardware/ROMMIPS.vhd
+C:/Descomp/Hardware/ROMcontent.mif
+C:/Descomp/Hardware/ULASomaSub.vhd
+C:/Descomp/Hardware/Waveform.vwf
+C:/Descomp/Hardware/bancoReg.vhd
+C:/Descomp/Hardware/conversorHex7Seg.vhd
+C:/Descomp/Hardware/decoderInstru.vhd
+C:/Descomp/Hardware/decoderUlaFunct.vhd
+C:/Descomp/Hardware/decoderUlaOp.vhd
+C:/Descomp/Hardware/edgeDetector.vhd
+C:/Descomp/Hardware/estendeSinalGenerico.vhd
+C:/Descomp/Hardware/fullAdder.vhd
+C:/Descomp/Hardware/mux2x1.vhd
+C:/Descomp/Hardware/mux4x1.vhd
+C:/Descomp/Hardware/mux8x1.vhd
+C:/Descomp/Hardware/muxGenerico2x1.vhd
+C:/Descomp/Hardware/muxGenerico4x1.vhd
+C:/Descomp/Hardware/registradorGenerico.vhd
+C:/Descomp/Hardware/shift2Left.vhd
+C:/Descomp/Hardware/somaConstante.vhd
+C:/Descomp/Hardware/somadorGenerico.vhd
+C:/Descomp/Hardware/ula.vhd
+C:/Descomp/Hardware/ula_1bit.vhd
+C:/Descomp/Hardware/ula_1bit_msb.vhd
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 29 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
